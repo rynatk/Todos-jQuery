@@ -1,0 +1,22 @@
+//- Coder: Ryan Atkinson
+html(lang="en")
+  head
+    title todos!
+    link(href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet" type="text/css")
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet")
+    link(href="styles/main.css" rel="stylesheet")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js")
+    script(src="scripts/main.js")
+  body
+    .container
+      h1 TODOS 
+      .taskList
+        ul
+          //- li 
+          //-   .addedTask
+          //-     input(type="checkbox" name="checkMeOut")
+          //-     p This is a new item
+      h2 ADD:
+      form.newTaskForm
+        input(type="text" id="newTask" placeholder="Enter your thing to do...")
+        input(type="submit" id="plus" value="➕")

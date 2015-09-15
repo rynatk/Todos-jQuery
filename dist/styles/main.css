@@ -1,0 +1,70 @@
+html {
+  background-color: #dcd76f;
+  font-family: "Josefin Slab"; }
+
+h1 {
+  font-size: 3em;
+  text-align: center; }
+
+h2 {
+  font-size: 2em; }
+
+.container {
+  width: 400px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.taskList {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto; }
+
+ul {
+  padding-left: 0px; }
+
+ul li {
+  list-style-type: none; }
+
+.newTaskForm {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px; }
+  .newTaskForm input[type='text'] {
+    position: relative;
+    bottom: 5.5px;
+    width: 370px;
+    font-size: 12px;
+    line-height: 20px;
+    border: 1px solid; }
+  .newTaskForm input[type='submit'] {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    line-height: 28px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px;
+    border-style: solid; }
+
+.addedTask {
+  line-height: 12px;
+  width: 395px;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid #000;
+  overflow: auto;
+  padding-left: 5px; }
+  .addedTask input[type="checkbox"] {
+    display: inline-block;
+    width: 15px;
+    border-radius: 100%; }
+  .addedTask p {
+    display: inline-block;
+    margin: 5px; }
+
+.finished {
+  background-color: #94d1ff; }
+
+li.noBull {
+  list-style-type: none; }
